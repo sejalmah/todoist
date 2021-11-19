@@ -1,0 +1,159 @@
+/* Style the navigation bar */
+.navbar {
+  width:100%;
+  background-color:rgb(255,80,80);
+  overflow: auto;
+  margin-top:0;
+  position:sticky;
+  top:0;
+}
+input#search{
+	background-color:rgb(255,120,120);
+	width:160px;
+	margin-top:7px;
+	margin-left:700px;
+	padding:12px;
+	height:33px;
+}
+h1#abc{
+  text-align:center;
+}
+input#search:hover{
+	background-color:white;
+}
+h1#head{
+  font-size:40px;
+   text-decoration: underline;
+}
+div#add{
+  font-size:15px;
+}
+div#prohead{
+  margin-left:240px;
+  font-size:30px;
+}
+div#todoist{
+  margin-left:1200px;
+  color:white;
+  font-size:33px;
+}
+button.addbtn{
+  background-color:green;
+  width:59px;
+  height:34px;
+  border-radius:4px;
+}
+button.addbtn:hover{
+
+  background-color:white;
+
+}
+div#addtask{
+  font-size:15px;
+  margin-left:250px;
+  margin-top:0;
+}
+button.closebtn{
+  background-color:red;
+  width:59px;
+  height:34px;
+  border-radius:4px;
+}
+
+button.closebtn:hover{
+  background-color:white;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a#logout{
+	margin-left:650;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color:rgb(255,0,0);
+  cursor:pointer;
+  text-decoration:none;
+  text-color:red;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: rgb(255,100,100);
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button#btn{
+  background-color:red;
+  margin-left:90px;
+}
+button#btn:hover{
+  background-color:white;
+}
+
+div.sidebar{
+   background-color:rgb(200,200,200);
+}
+
+.centered {  
+  position:fixed;
+  z-index: 100;  
+  top:50%;  
+  left:50%;  
+  margin:-100px 0 0 -100px;  
+  width:200px;  
+  height:200px;  
+}  

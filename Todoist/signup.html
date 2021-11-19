@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	  <link rel="stylesheet" type="text/css" href="./CSS/signup.css">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-analytics.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-auth.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-firestore.js"></script>
+      <script src="./JS/signup.js"></script>
+</head>
+<body>
+	 <div class="container">
+     <h2 id="heading">todoist</h2>
+     <h3 id="loghead"> Sign up </h3>
+     </div>
+     <form id="signupform">
+     	<div class="container">
+	     <div> <label for="email" type="email" id="q1">E-mail</label></div>
+	    <div> <input type="email" name="email" id="email" placeholder="abc@gmail.com" ></div>
+	</div>
+	<div class="container">
+	     <div><label for="name" id="q1">Name</label></div>
+	    <div> <input type="text" id="name"></div>
+	    <div> <label for="password" id="q1" >Password</label> </div>
+	    <div> <input type="password" name="password" id="password"></div>
+	  </div>
+        <div class="container">
+	     <button type="submit" id="btn" onclick="signup()">Sign Up With Email</button>
+	     <div class="container error" id="signuperror"></div>
+	     <div id="log" > Already have an account ?  <a href=" login.html ">Log in</a> </div>
+	 </div>
+     </form>
+</body>
+</html>

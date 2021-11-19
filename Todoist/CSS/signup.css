@@ -1,0 +1,46 @@
+h2#heading{
+	color:red;
+	margin-top:60px;
+	font-size:30px;
+	text-align:center;
+}
+h3#loghead{
+	margin-top:20px;
+	color:black;
+	font-size:35px;
+	text-align:center;
+}input{
+	/*margin:20px;*/
+    padding:3px;
+    height:40px;
+    width:500px;
+}
+
+label#q1{
+	margin-top:20px;
+	color:black;
+}
+div#log{
+	margin-left:90px;
+	color:black;
+}
+button#btn{
+	text-align:center;
+	background-color:rgb(255,0,0);
+	margin-top:40px;
+    color:white;
+    width:300px;
+    height:50px;
+}
+button#btn:hover{
+	background-color:rgb(200,0,0);
+}
+div{
+	text-align:center;
+}
+
+div#log{
+	margin-top:20px;
+    margin-left:20px;
+	color:black;
+}
